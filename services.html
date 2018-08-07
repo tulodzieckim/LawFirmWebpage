@@ -1,0 +1,426 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+      crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Bootstrap Theme</title>
+</head>
+
+<body>
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <div class="container">
+         <a href="index.html" class="navbar-brand">Kancelaria</a>
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto">
+               <li class="navbar-item">
+                  <a href="companies.html" class="nav-link">Obsługa Firm</a>
+               </li>
+               <li class="navbar-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Zakres usług</a>
+                  <div class="dropdown-menu">
+                     <a href="services.html#prawoKarneCollapse" class="dropdown-item">Prawo Karne</a>
+                     <a href="services.html#prawoPracyCollapse" class="dropdown-item">Prawo Pracy</a>
+                     <a href="services.html#prawoRodzinneCollapse" class="dropdown-item">Prawo Rodzinne</a>
+                     <a href="services.html#prawoSpadkoweCollapse" class="dropdown-item">Prawo Spadkowe</a>
+                     <a href="services.html#prawoGospodarczeCollapse" class="dropdown-item">Prawo Gospodarcze</a>
+                     <a href="services.html#windykacjaNaleznosciCollapse" class="dropdown-item">Windykacja Nalezności</a>
+                  </div>
+               </li>
+               <li class="navbar-item">
+                  <a href="contact.html" class="nav-link">Kontakt</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+   <!-- HEADER -->
+   <header id="services-header">
+      <div class="dark-overlay">
+         <div class="container">
+            <div class="row">
+               <div class="text-white text-center header-content ml-auto">
+                  <h2 class="display-4 p-3">Nasze usługi</h2>
+                  <p class="lead">Oferujemy szeroką pomoc prawną.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <!-- SERVICES -->
+   <section id="services-section pb-5">
+      <div class="bg-light text-dark">
+         <div class="container pb-3" id="accordion">
+            <div class="row my-4">
+
+               <!-- COLLAPSE BUTTONS -->
+               <div class="col-sm-6 col-md-4 mb-2">
+                  <button class="btn btn-dark btn-block btn-lg" data-toggle="collapse" data-target="#prawoKarneCollapse">Prawo Karne</button>
+               </div>
+               <div class="col-sm-6 col-md-4 mb-2">
+                  <button class="btn btn-light btn-block btn-lg border" data-toggle="collapse" data-target="#prawoPracyCollapse">Prawo Pracy</button>
+               </div>
+               <div class="col-sm-6 col-md-4 mb-2">
+                  <button class="btn btn-dark btn-block btn-lg" data-toggle="collapse" data-target="#prawoRodzinneCollapse">Prawo Rodzinne</button>
+               </div>
+               <div class="col-sm-6 col-md-4 mb-2">
+                  <button class="btn btn-light btn-block btn-lg border" data-toggle="collapse" data-target="#prawoSpadkoweCollapse">Prawo Spadkowe</button>
+               </div>
+               <div class="col-sm-6 col-md-4 mb-2">
+                  <button class="btn btn-dark btn-block btn-lg" data-toggle="collapse" data-target="#prawoGospodarczeCollapse">Prawo Gospodarcze</button>
+               </div>
+               <div class="col-sm-6 col-md-4 mb-2">
+                  <button class="btn btn-light btn-block btn-lg border" data-toggle="collapse" data-target="#windykacjaNaleznosciCollapse">Windykacja Należności</button>
+               </div>
+            </div>
+            <hr class="hr-green">
+
+            <!-- PRAWO KARNE COLLAPSE -->
+            <div id="prawoKarneCollapse" class="collapse show" data-parent="#accordion">
+               <h2>Prawo Karne</h2>
+               <p class="lead">Kancelaria prowadzi liczne postępowania karne, w tym karno-skarbowe oraz karno-gospodarcze. Usługi obejmują
+                  reprezentację na każdym stadium procesu karnego: w postępowaniu przygotowawczym, sądowym oraz wykonawczym.</p>
+
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#karne-post-przygotowawcze" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Postępowanie przygotowawcze:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="karne-post-przygotowawcze">
+                     <li class="list-group-item bg-light">udział w czynnościach związanych z zatrzymaniem Klienta lub osoby mu bliskiej,</li>
+                     <li class="list-group-item bg-light">zabieganie o uchylenie lub zmianę tymczasowego aresztowania na środek zapobiegawczy o charakterze wolnościowym,</li>
+                     <li class="list-group-item bg-light">kompleksowe opracowanie linii obrony (aktywne gromadzenie materiału dowodowego, optymalizacja działań
+                        pod kątem kartoteki karnej Klienta),</li>
+                     <li class="list-group-item bg-light">udział we wszelkich czynnościach podejmowanych w ramach prowadzonego śledztwa lub dochodzenia,</li>
+                     <li class="list-group-item bg-light">obrona Klienta objętego Europejskim Nakazem Aresztowania (ENA),</li>
+                     <li class="list-group-item bg-light">pomoc w pojednaniu z pokrzywdzonym,</li>
+                     <li class="list-group-item bg-light">pomoc pokrzywdzonym – subsydiarny akt oskarżenia.</li>
+                  </ul>
+               </div>
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#karne-post-sadowe" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Postępowanie sądowe:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="karne-post-sadowe">
+                     <li class="list-group-item bg-light">kompleksowe opracowanie linii obrony pod kątem uniewinnienia Klienta lub uzyskania możliwie najłagodniejszego
+                        wymiaru kary (aktywne gromadzenie materiału dowodowego; inicjatywa dowodowa),</li>
+                     <li class="list-group-item bg-light">udział w czynnościach postępowania (rozprawy, posiedzenia, wizje lokalne),</li>
+                     <li class="list-group-item bg-light">przygotowywanie pism procesowych,</li>
+                     <li class="list-group-item bg-light">pomoc w uzyskaniu warunkowego umorzenia kary lub warunkowego zawieszenia wykonania kary,</li>
+                     <li class="list-group-item bg-light">optymalizacja toku postępowania pod kątem kartoteki karnej Klienta,</li>
+                     <li class="list-group-item bg-light">pomoc w uzyskiwaniu możliwie najłagodniejszej kary łącznej,</li>
+                     <li class="list-group-item bg-light">pomoc w pojednaniu z pokrzywdzonym,</li>
+                     <li class="list-group-item bg-light">reprezentacja pokrzywdzonego.</li>
+                  </ul>
+               </div>
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#karne-post-wykonawcze" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Postępowanie wykonawcze:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="karne-post-wykonawcze">
+                     <li class="list-group-item bg-light">pomoc w uzyskaniu warunkowego przedterminowego zwolnienia z odbycia reszty kary pozbawienia wolności,</li>
+                     <li class="list-group-item bg-light">pomoc w uzyskaniu odroczenia lub przerwy w karze,</li>
+                     <li class="list-group-item bg-light">pomoc w uzyskaniu odroczenia płatności kary grzywny lub jej rozłożenia na raty,</li>
+                     <li class="list-group-item bg-light">obrona Klienta objętego Europejskim Nakazem Aresztowania (ENA).</li>
+                  </ul>
+               </div>
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#karne-typowe-postepowania" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Typowe postępowania:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="karne-typowe-postepowania">
+                     <li class="list-group-item bg-light">wypadków komunikacyjnych;</li>
+                     <li class="list-group-item bg-light">prowadzenia pojazdów mechanicznych w stanie nietrzeźwości lub odurzenia,</li>
+                     <li class="list-group-item bg-light">spowodowania uszczerbku na zdrowiu,</li>
+                     <li class="list-group-item bg-light">przestępstw narkotykowych,</li>
+                     <li class="list-group-item bg-light">przestępstw przeciwko mieniu,</li>
+                     <li class="list-group-item bg-light">przestępczości zorganizowanej</li>
+                     <li class="list-group-item bg-light">przestępstw przeciwko wolności seksualnej i obyczajowości,</li>
+                     <li class="list-group-item bg-light">przestępstw przeciwko obrotowi gospodarczemu,</li>
+                     <li class="list-group-item bg-light">błędów w sztuce lekarskiej.</li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- PRAWO PRACY COLLAPSE -->
+            <div id="prawoPracyCollapse" class="collapse" data-parent="#accordion">
+               <h2>Prawo Pracy</h2>
+               <p>Usługi Kancelarii obejmują zarówno zbiorowe, jak i indywidualne prawo pracy.</p>
+               <p>W zakresie indywidualnego prawa pracy służymy pomocą przy opracowywaniu dokumentacji pracowniczej, umów o
+                  pracę, umów o zakazie konkurencji, umów szkoleniowych oraz kontraktów menedżerskich. Wspieramy naszych
+                  Klientów w procesie rozwiązywania stosunków pracowniczych.</p>
+               <p>Zapewniamy reprezentowanie Klientów w negocjacjach oraz sprawach sądowych dotyczących sporów pracowniczych,
+                  a także w sprawach mobbingu oraz dyskryminacji. Kancelaria Adwokacka świadczy usługi również na rzecz menadżerów
+                  w sprawach związanych z ich zatrudnieniem.</p>
+               <p>W zakresie zbiorowego prawa pracy wspomagamy naszych Klientów w konsultacjach oraz rozmowach ze związkami
+                  zawodowymi. Służymy radą przy formułowaniu i negocjowaniu układów zbiorowych pracy i innych porozumień
+                  zbiorowych pomiędzy pracodawcami a związkami zawodowymi. Sporządzamy regulaminy pracy oraz regulaminy wynagradzania.
+                  Na zlecenie Klientów analizujemy charakter oraz rodzaj pracy oraz sugerujemy zastosowanie indywidualnie
+                  zaprojektowanych systemów wynagradzania.</p>
+               <p>W sprawach spornych opracowujemy strategie prowadzenia sporów zbiorowych.</p>
+               <p>Doradzamy również naszym klientom w kwestiach bezpieczeństwa i higieny oraz czasu pracy.</p>
+            </div>
+
+            <!-- PRAWO RODZINNE COLLAPSE -->
+            <div id="prawoRodzinneCollapse" class="collapse" data-parent="#accordion">
+               <h2>Prawo Rodzinne</h2>
+               <div>
+                  <p>Świadczymy kompleksową pomoc z zakresu prawa rodzinnego. Nie tylko przeprowadzimy rozwód, separację, a
+                     także unieważnienie małżeństwa. Zajmiemy się także wszystkimi aspektami związanymi z rozwiązaniem małżeństwa.
+                     Kancelaria zapewnia pomoc przy podziale majątku wspólnego byłych małżonków oraz ustaleniu sposobu sprawowania
+                     władzy rodzicielskiej nad małoletnimi dziećmi po orzeczeniu rozwodu. Adwokaci zajmą się również kwestią
+                     ustalenia, bądź zmiany wysokości alimentów.</p>
+                  <p>Oprócz spraw związanych z rozwodem oferujemy pomoc prawną w przypadku adopcji (również zagranicznej) czy
+                     też sporządzania umów małżeńskich jak np. intercyza. Służymy poradą także w sytuacji zadłużenia małżonka
+                     i podejmujemy czynności prawne mające na celu uniknięcie odpowiedzialności za długi partnera.</p>
+                  <p>Nasza Kancelaria adwokacka w Toruniu świadczy zarówno usługi konsultacji oraz porad prawnych, jak i sporządzania
+                     czy opiniowania pism i umów. Nasi prawnicy reprezentują także klientów podczas postępowania sądowego,
+                     administracyjnego bądź egzekucyjnego.</p>
+               </div>
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#rodzinne-lista" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Świadczymy pomoc w następujących dziedzinach prawa rodzinnego:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="rodzinne-lista">
+                     <li class="list-group-item bg-light">Rozwód,</li>
+                     <li class="list-group-item bg-light">Separacja,</li>
+                     <li class="list-group-item bg-light">Unieważnienie małżeństwa,</li>
+                     <li class="list-group-item bg-light">Podział majątku,</li>
+                     <li class="list-group-item bg-light">Kontakty z dzieckiem,</li>
+                     <li class="list-group-item bg-light">Władza rodzicielska (ograniczenie, pozbawienie),</li>
+                     <li class="list-group-item bg-light">Alimenty,</li>
+                     <li class="list-group-item bg-light">Adopcja (adopcja zagraniczna),</li>
+                     <li class="list-group-item bg-light">Intercyza (umowy majątkowe małżeńskie),</li>
+                     <li class="list-group-item bg-light">Przymusowy ustrój majątkowy,</li>
+                     <li class="list-group-item bg-light">Zgoda sądowa na czynności prawne,</li>
+                     <li class="list-group-item bg-light">Zadłużenie małżonka,</li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- PRAWO SPADKOWE COLLAPSE -->
+            <div id="prawoSpadkoweCollapse" class="collapse" data-parent="#accordion">
+               <h2>Prawo Spadkowe</h2>
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#spadkowe-nabycie-spadku" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Stwierdzenie nabycia spadku:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="spadkowe-nabycie-spadku">
+                     <li class="list-group-item bg-light">Zespół Kancelarii oferuje Państwu wszechstronną obsługę spraw z zakresu sprawa spadkowego. Adwokaci
+                        doradzają przy przeprowadzeniu notarialnego poświadczenia dziedziczenia oraz zapewniają Klientom
+                        reprezentację przez Sądmi w ramach spraw o stwierdzenie nabycia spadku. Adwokaci prowadzą postępowania
+                        związane z nabyciem spadku zarówno na podstawie ustawy, jak i na podstawie testamentu. Zapewniamy
+                        pomoc przy unieważnieniu testamentu, w tym testamentu notarialnego oraz ustnego.
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#spadkowe-przyjecie-spadku" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Przyjęcie i odrzucenie spadku:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="spadkowe-przyjecie-spadku">
+                     <li class="list-group-item bg-light">Zespół Kancelarii oferuje Państwu wszechstronną obsługę spraw z zakresu sprawa spadkowego. Adwokaci
+                        doradzają przy przeprowadzeniu notarialnego poświadczenia dziedziczenia oraz zapewniają Klientom
+                        reprezentację przez Sądmi w ramach spraw o stwierdzenie nabycia spadku. Adwokaci prowadzą postępowania
+                        związane z nabyciem spadku zarówno na podstawie ustawy, jak i na podstawie testamentu. Zapewniamy
+                        pomoc przy unieważnieniu testamentu, w tym testamentu notarialnego oraz ustnego.
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#spadkowe-dział-spadku" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Dział spadku:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="spadkowe-dział-spadku">
+                     <li class="list-group-item bg-light">Po dokonaniu notarialnego poświadczenia dziedziczenia lub uzyskaniu sądowego stwierdzenia nabycia spadku
+                        należży przeprowadzić dział spadku. Klientom Kancelarii doradzamy przy określeniu darowizn zaliczanych
+                        na schedę spadkową oraz takich, które nie powinny być na nią zaliczane. Adwokaci proponują kompleksową
+                        pomoc prawną w zakresie przygotowania wniosku do sądu oraz reprezentują Klinta przez cały czas trwania
+                        postępowania sądowego. Adwokaci zajmują się również przygotowaniem stosownych umów dotyczących pozasądowego
+                        rozwiązania kwestii podziału majątku spadkowego, dbając jednocześnie o najlepszy interes Klienta.
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#spadkowe-zachowek" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Zachowek:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="spadkowe-zachowek">
+                     <li class="list-group-item bg-light">W przypadku gdy bliscy spadkodawcy nie otrzymali należnego im udziału w spadku, przysługuje im roszczenie
+                        o tzw. zachowek, stanowiący swoistą rekompensatę za pominięcie przy spadkobraniu. Adwokata Adam Kozioziembski
+                        oraz adwokat Piotr Domański zapewniają pomoc przy ustaleniu wysokości należnego zachowku, a także
+                        zapewniają pomoc przy reprezentacji przed Sądem. W ramach świadczonej Klientom pomocy adwokaci przygotowują
+                        wszelkie pisma procesowe oraz uczestniczą w negocjacjach ugodowych.
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#spadkowe-zachowek" class="h4 ">
+                     <i class="fas fa-plus-square"></i> Testament i ostatnia wola testatora:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="spadkowe-zachowek">
+                     <li class="list-group-item bg-light">Adwokaci zapewniają pomoc przy sposobie wyboru formy testamentu, rozwiewając wątpliwości z tym związane
+                        i wskazując na ewentualne zagrożenia dla pełnej realizacji woli spadkodawcy. Doradzają w zakresie
+                        przesłanek i mozliwości wydziedziczenia spadkobierców ustawowych a także umieszczenia w testamencie
+                        stosownych zapisów i poleceń testamentowych.
+                     </li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- PRAWO GOSPODARCZE COLLAPSE -->
+            <div class="collapse" id="prawoGospodarczeCollapse" data-parent="#accordion">
+               <h2>Prawo Gospodarcze</h2>
+               <ul class="mt-2 list-group list-group-flush">
+                  <li class="list-group-item bg-light">Tworzenie podmiotów gospodarczych i ich rejestracja,</li>
+                  <li class="list-group-item bg-light">Zmiany w KRS,</li>
+                  <li class="list-group-item bg-light">Tworzenie i opiniowanie projektów umów,</li>
+                  <li class="list-group-item bg-light">Tworzenie i opiniowanie projektów uchwał spółek,</li>
+                  <li class="list-group-item bg-light">Podniesienie kapitału zakładowego,</li>
+                  <li class="list-group-item bg-light">Obniżenie kapitału zakładowego,</li>
+                  <li class="list-group-item bg-light">Rozwiązanie spółki,</li>
+                  <li class="list-group-item bg-light">Likwidacja spółki,</li>
+               </ul>
+            </div>
+
+            <!-- WINDYKACJA NALEŻNOŚCI -->
+            <div id="windykacjaNaleznosciCollapse" class="collapse" data-parent="#accordion">
+               <h2>Windykacja należności</h2>
+               <div>
+                  <p>Zapewniamy kompleksową pomoc prawną przy dochodzeniu wierzytelności od dłużników. Prowadzona przez nas
+                     windykacja nie ogranicza się do wysłania wezwań do zapłaty. Oferujemy przedsądowe próby odzyskania należności
+                     oraz negocjacje z dłużnikami.</p>
+                  <p>W przypadku braku możliwości polubownego rozwiązania sprawy podejmujemy czynności prawne związane z sądową
+                     windykacją. Nasi adwokaci reprezentują wierzycieli na każdym etapie postępowania przedsądowego, sądowego
+                     oraz egzekucyjnego.</p>
+                  <p>Zapewniamy również pomoc przy egzekucji polskiego wyroku w innych krajach Unii Europejskiej i nie tylko,
+                     a także przy wykonywaniu zagranicznych wyroków w Polsce.</p>
+                  <p>Nasza toruńska kancelaria prawna kieruje swoje usługi również do dłużników. Zapewniamy pomoc przy prowadzeniu
+                     mediacji oraz podpisaniu ugody zabezpieczającej interesy obu stron postępowania. W przypadku wątpliwości
+                     w zasadność nakazu zapłaty podejmujemy czynności związane z jego zaskarżeniem.</p>
+                  <p>Usługi świadczymy zarówno dla osób prywatnych, jak i przedsiębiorstw na terenie Torunia i okolic województwa
+                     kujawsko-pomorskiego.
+                  </p>
+               </div>
+               <div class="p-3">
+                  <a data-toggle="collapse" href="#windykacja-lista" class="h4 ">
+                     <i class="fas fa-plus-square"></i> W zakres oferowanych przez kancelarię działań windykacyjnych wchodzi:
+                  </a>
+                  <ul class="mt-2 list-group list-group-flush collapse iconChange" id="windykacja-lista">
+                     <li class="list-group-item bg-light">Sądowa windykacja należności,</li>
+                     <li class="list-group-item bg-light">Negocjacje z dłużnikami,</li>
+                     <li class="list-group-item bg-light">Wezwanie do zapłaty,</li>
+                     <li class="list-group-item bg-light">Windykacja należności zagranicznych,</li>
+                     <li class="list-group-item bg-light">Uzyskiwanie, zaskarżanie nakazów zapłaty,</li>
+                     <li class="list-group-item bg-light">Elektroniczne postępowanie upominawcze,</li>
+                     <li class="list-group-item bg-light">Europejskie postępowania nakazowe,</li>
+                     <li class="list-group-item bg-light">Adopcja (adopcja zagraniczna),</li>
+                     <li class="list-group-item bg-light">Wykonywanie, uznawanie polskich wyroków zagranicą (w UE oraz poza UE),</li>
+                     <li class="list-group-item bg-light">Wykonywanie zagranicznych wyroków w Polsce,</li>
+                     <li class="list-group-item bg-light">Ugody sądowe, pozasądowe,</li>
+                     <li class="list-group-item bg-light">Zabezpieczanie wierzytelności,</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+   </section>
+
+
+
+   <!-- FOOTER -->
+   <footer id="footer">
+      <div class="bg-dark text-white p-4 mb-3">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4 text-left mb-3">
+                  <h6 class="mb-0">Kancelaria Adwokacka</h6>
+                  <hr class="accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p class="mb-2 mt-0">
+                     <i class="fas fa-home br-3"></i> ul. Wiązowa 16/4</p>
+                  <p class="mb-2 mt-0">
+                     <span class="mr-4"></span> 87-100 Toruń</p>
+               </div>
+               <div class="col-sm-4 text-left mb-3">
+                  <h6 class="mb-0">adw. Marian Lewandowski</h6>
+                  <hr class="hr-green accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p class="mb-2 mt-0">
+                     <i class="fas fa-phone mr-3"></i> 777 777 777</p>
+                  <p class="mb-2 mt-0">
+                     <i class="fas fa-envelope mr-3"></i> test@test.com</p>
+               </div>
+               <div class="col-sm-4 text-left mb-3">
+                  <h6 class="mb-0">adw. Stefan Wisniewski</h6>
+                  <hr class="hr-green accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                  <p class="mb-2 mt-0">
+                     <i class="fas fa-phone mr-3"></i> 777 777 777</p>
+                  <p class="mb-2 mt-0">
+                     <i class="fas fa-envelope mr-3"></i> test@test.com</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+      crossorigin="anonymous"></script>
+
+   <script>
+      //Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+
+      // Toggle plus/minus sign on collapse
+      $('.iconChange').on('shown.bs.collapse', function () {
+         const icon = $(this).prev().find('.fas');
+         icon.removeClass('fa-plus-square');
+         icon.addClass('fa-minus-square');
+      })
+
+      $('.iconChange').on('hidden.bs.collapse', function () {
+         const icon = $(this).prev().find('.fas');
+         icon.removeClass('fa-minus-square');
+         icon.addClass('fa-plus-square');
+      })
+
+      // collapse particular tab on page load
+      openAnchorAccordion();
+
+      // collapse particular tab on link click
+      $('nav .dropdown-menu a').on('click', function () {
+         target = $('body').find(this.hash);
+         target.collapse('show');
+      })
+
+
+      // Open accordion tab on click to anchor from another page
+      function openAnchorAccordion() {
+         if (window.location.hash) {
+            const target = $('body').find(window.location.hash);
+            if (target.hasClass('collapse')) {
+               target.collapse('show');
+            }
+         }
+      }
+   </script>
+</body>
+
+</html>
