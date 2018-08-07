@@ -94,6 +94,10 @@
    border-top: 2px solid green;
 }
 
+.hr-green-bottom {
+   border-bottom: 2px solid green;
+}
+
 /* SERVICE HEADER */
 #services-header,
 #companies-header,
@@ -136,6 +140,7 @@
 #map {
    width: 100%x;
    min-height: 300px;
+   max-height: 400px;
    border: 2px solid #343a40;
 }
 
